@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
 
 // Connection to the mongodb
-const uri = "mongodb+srv://slavkostevic:nZ2mYYjxyJzQvaVe@phase2.wdyjvvd.mongodb.net/test";
+const uri = "mongodb+srv://<username>:<passoword>@phase2.wdyjvvd.mongodb.net/test";
 
 const express = require("express");
 const app = express();
